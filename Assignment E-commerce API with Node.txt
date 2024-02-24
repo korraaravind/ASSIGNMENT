@@ -1,0 +1,71 @@
+Assignment: E-commerce API with Node.js
+Goal:
+Build a robust API set to support various e-commerce operations using Node.js, allowing interaction with an SQL database, user authentication via JSON Web Tokens (JWT), and proper error handling.
+
+Requirements:
+API Endpoints:
+
+Category Listing
+Product Listing
+Product Details
+Cart Management
+Order Placement
+Order History
+Order Details
+User Registration and Login
+Database Integration:
+
+Use any SQL database, preferably PostgreSQL.
+Perform CRUD operations on products, cart items, and orders.
+User Authentication:
+
+Implement JWT-based authentication for user registration, login, and obtaining authentication tokens.
+Secure sensitive endpoints with authentication middleware.
+Error Handling:
+
+Implement appropriate error handling with meaningful error messages and status codes.
+Documentation:
+
+Create detailed documentation for API endpoints, preferably using Swagger.
+Rate Limiting (optional):
+
+Add API rate limiting to prevent abuse and maintain server stability.
+Implementation Details:
+Language & Framework: Node.js with Express.js
+Database: PostgreSQL
+Authentication: JWT
+Error Handling: Custom error middleware
+Documentation: Swagger
+Rate Limiting: Express Rate Limit
+GitHub Repository Structure:
+Code:
+
+/src: Contains the source code for the Node.js application.
+/src/controllers: Controllers for handling various API endpoints.
+/src/models: Database models for products, users, carts, and orders.
+/src/routes: Route definitions for different API endpoints.
+/src/middleware: Authentication middleware for securing routes.
+/src/utils: Utility functions.
+/src/config: Configuration files.
+/src/db: Database configuration and connection.
+/src/docs: Swagger documentation.
+/src/errors: Custom error handling.
+README.md:
+
+Instructions on setting up the project.
+API documentation using Swagger.
+Explanation of important design decisions.
+Commit History:
+
+Well-commented commits reflecting the development process.
+Setup Instructions:
+Clone the repository.
+Install dependencies (npm install).
+Set up the PostgreSQL database.
+Run the application (npm start).
+Important Design Decisions:
+Use of Express.js for handling HTTP requests.
+PostgreSQL for its robustness and support for complex queries.
+JWT for stateless authentication, ensuring scalability.
+Swagger for clear API documentation.
+Express Rate Limit for optional rate limiting.
