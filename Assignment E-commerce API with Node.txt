@@ -32,7 +32,7 @@ Rate Limiting (optional):
 Add API rate limiting to prevent abuse and maintain server stability.
 Implementation Details:
 Language & Framework: Node.js with Express.js
-Database: PostgreSQL
+Database: MYSQL
 Authentication: JWT
 Error Handling: Custom error middleware
 Documentation: Swagger
